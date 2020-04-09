@@ -6,6 +6,10 @@ class Student < User
   
   def learn(brain_food)
     @knowledge << brain_food
-    end 
+  end 
+  
+  def knowledge
+    @knowledge
+  end 
 
 end
